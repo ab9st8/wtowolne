@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "W to Wolne",
+  "version": "1",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://enroll-me.iiet.pl/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
