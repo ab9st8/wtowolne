@@ -1,0 +1,4 @@
+- Go to chrome://extensions
+- Toggle Developer Mode on
+- Click "Load unpacked" and select the repository directory
+- Refresh the schedule page
